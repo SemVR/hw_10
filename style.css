@@ -307,121 +307,8 @@
         font-size: 18px;
     }
 }
-.numbers{
-    width: 100%;
-    height: 10%;
-    font-family: "Roboto", serif;
-    background-color: #34547A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1%;
-}
-@media (max-width: 1440px){
-    .numbers{
-        gap: 5%;
-    }
-}
-.numbers_item{
-    width: 10%;
-    height: 30%;
-    display: flex;
-    flex-wrap: nowrap;
-}
-@media (max-width: 1440px){
-    .numbers_item{
-        padding: 2% 10%;
-    }
-}
-@media (max-width: 768px){
-    .numbers_item{
-        width:20%;
-    }
-}@media (max-width: 425px){
-    .numbers_item{
-        width: 40%;
-        padding-left:25%;
-        padding-top: 2%;
-    }
-}
 
-.img{
-    width:50px;
-    height: 50px;
-}
-.text_box{
-    width: 50%;
-    height: 50%;
-    padding-left:5%;
-    padding-top: 2%;
-    color:#ffffff;
-}
-.group_text1{
-    width: 50%;
-    height: 40%;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-}
-@media (max-width: 1440px){
-    .group_text1{
-        font-size: 23px;
-    }
-}
-@media (max-width: 1024px){
-    .group_text1{
-        font-size: 25px;
-    }
-}
-@media (max-width: 768px){
-    .group_text1{
-        font-size: 27px;
-    }
-}
-@media (max-width: 425px){
-    .group_text1{
-        font-size: 24px;
-    }
-}
-@media (max-width: 375px){
-    .group_text1{
-        font-size: 26px;
-    }
-}
-.group_text2{
-    width: 50%;
-    height: 50%;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    padding-top: 10%;
-}
-@media (max-width: 1440px){
-    .group_text2{
-        font-size: 18px;
-    }
-}
-@media (max-width: 1024px){
-    .group_text2{
-        font-size: 20px;
-    }
-}
-@media (max-width: 768px){
-    .group_text2{
-        font-size: 22px;
-    }
-}
-@media (max-width: 425px){
-    .group_text2{
-        font-size: 20px;
-    }
-}
-@media (max-width: 375px){
-    .group_text{
-        font-size: 22px;
-    }
-}
+
 .video{
     width: 100%;
     height: 40%;
@@ -501,7 +388,6 @@
         padding: 15% 43%;
     }
 }
-
 .footer{
   width: 100%;
   height: 5%;
