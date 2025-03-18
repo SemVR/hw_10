@@ -1,15 +1,17 @@
+.first_screen_menu, .First_screen {
+  flex-wrap: wrap;
+}
+
 .First_screen {
   font-family: "Roboto", serif;
   height: 30%;
   width: 100%;
   background-color: #EEEFF1;
-  flex-wrap: wrap;
 }
 
 /* device (1440px(-33%), 1024px(-30%), 768px(-33%), 425px(-80%), 375px(-15%)) */
 .first_screen_menu {
   display: flex;
-  flex-wrap: wrap;
   padding-top: 5%;
   padding-left: 21%;
   height: 2%;
@@ -19,6 +21,9 @@
   line-height: 4%;
   color: black;
   text-transform: uppercase;
+}
+.first_screen_menu p:hover {
+  color: #34547A;
 }
 
 @media (max-width: 1440px) {
@@ -56,10 +61,6 @@
     padding-top: 5%;
   }
 }
-.first-screen_menu :hover {
-  color: #34547A;
-}
-
 .first_screen_box {
   width: 30%;
   height: 10%;

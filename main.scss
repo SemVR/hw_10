@@ -3,3 +3,37 @@
 @import "numbers.scss";
 @import "video.scss";
 @import "footer.scss";
+.main_conteiner{
+	width: 100vw;
+	height: 2464px;
+}
+@media (max-width: 1440px){
+	.main_conteiner{
+			width: 100vw;
+			height: 100%;
+	}
+}
+@media (max-width: 1024px){
+	.main_conteiner{
+			width: 100vw;
+			height: 100%;
+	}
+}
+@media (max-width: 768px){
+	.main_conteiner{
+			width: 100vw;
+			height: 100%;
+	}
+}
+@media (max-width: 425px){
+	.main_conteiner{
+			width: 100vw;
+			height: 100%;
+	}
+}
+@media (max-width: 375px){
+	.main_conteiner{
+			width: 100vw;
+			height: 100%;
+	}
+}

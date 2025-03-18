@@ -1,3 +1,5 @@
+$primary-color: #ffffff;
+
 .footer{
   width: 100%;
   height: 5%;
@@ -13,7 +15,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
-    color: #ffffff;
+    color: $primary-color;
     padding-bottom: 2%;
 }
 .footer_name{
@@ -24,5 +26,5 @@
     font-weight: 500;
     font-size: 21px;
     line-height: 100%;
-    color: #ffffff;
+    color: $primary-color ;
 }
